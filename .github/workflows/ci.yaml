@@ -33,7 +33,7 @@ env:
 # 빌드 작업 정의  
 jobs:
   build:
-    runs-on: ubuntu-latest  #  build 작업이 정의되며 작업은 최신 버전의 Ubuntu 환경에서 실행됨
+    runs-on: ubuntu-latest  #  build 작업이 정의되며 작업은 최신 버전의 Ubuntu 환경에서 실행됨.
     steps:
     # 레포지토리의 코드를 체크아웃합니다.
     # 현재 레포지토리의 코드를 체크아웃하여 빌드와 배포에 필요한 파일들을 가져옴.
